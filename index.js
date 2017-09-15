@@ -28,7 +28,7 @@ function currentLine(line) {
   } else {
     var i = 0;
     while(i < line.length) {
-      
+
       var position = i + 1;
       var newArray = [];
       newArray.unshift() = position + line[i];
