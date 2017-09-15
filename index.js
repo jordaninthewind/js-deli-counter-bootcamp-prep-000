@@ -23,7 +23,7 @@ function nowServing(currentList) {
 
 function currentLine(line) {
   // If no one is in line, returns 'The line is currently empty.'
-  if(currentLine.length === 0) {
+  if(line.length === 0) {
     return 'The line is currently empty.';
   } else {
 
