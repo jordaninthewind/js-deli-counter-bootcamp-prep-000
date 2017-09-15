@@ -31,7 +31,7 @@ function currentLine(line) {
     while(i < line.length) {
       var position = i + 1;
       var fullThing = position + '. ' + line[i];
-      newArray.unshift(fullThing);
+      newArray.push(fullThing);
       i++;
     }
     // Returns current line
