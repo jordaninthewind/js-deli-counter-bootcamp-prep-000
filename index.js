@@ -27,11 +27,10 @@ function currentLine(line) {
     return 'The line is currently empty.';
   } else {
     var i = 0;
+    var newArray = [];
     while(i < line.length) {
-
       var position = i + 1;
-      var newArray = [];
-      newArray.unshift() = position + line[i];
+      newArray.unshift() = position + '. ' + line[i];
       i++;
     }
     // Returns current line
