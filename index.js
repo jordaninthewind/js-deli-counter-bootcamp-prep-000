@@ -30,7 +30,8 @@ function currentLine(line) {
     var newArray = [];
     while(i < line.length) {
       var position = i + 1;
-      newArray.unshift() = position + '. ' + line[i];
+      var fullThing = position + '. ' + line[i];
+      newArray.unshift(fullThing).
       i++;
     }
     // Returns current line
