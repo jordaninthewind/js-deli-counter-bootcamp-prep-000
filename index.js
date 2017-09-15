@@ -21,10 +21,13 @@ function nowServing(currentList) {
     }
 }
 
-function currentLine() {
-  // Returns current line
-
-  // String = 'The line is current: ${[number + 1], ${number + 1}}'
-
+function currentLine(line) {
   // If no one is in line, returns 'The line is currently empty.'
+  if(currentLine.length === 0) {
+    return 'The line is currently empty.';
+  } else {
+
+    // Returns current line
+  }
+  // String = 'The line is current: ${[number + 1], ${number + 1}}'
 }
