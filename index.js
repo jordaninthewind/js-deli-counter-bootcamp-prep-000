@@ -27,8 +27,9 @@ function currentLine(line) {
     return 'The line is currently empty.';
   } else {
     for(var i = 0; i < line.length; i++) {
-      var newArray = [(i + line[i])];
-
+      var position = i + 1;
+      var name = line[i];
+      var newArray = [position + name];
     }
     // Returns current line
     return 'The line is currently: ' + newArray;
