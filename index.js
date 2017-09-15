@@ -30,7 +30,8 @@ function currentLine(line) {
     while(i < line.length) {
       var position = i + 1;
       var name = line[i];
-      var newArray = [position + name];
+      var newArray = [];
+      newArray[i] = position + name;
       i++;
     }
     // Returns current line
