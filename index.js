@@ -26,8 +26,9 @@ function currentLine(line) {
   if(line.length === 0) {
     return 'The line is currently empty.';
   } else {
-
+    
     // Returns current line
+    return 'The line is currently: ' + ;
   }
   // String = 'The line is current: ${[number + 1], ${number + 1}}'
 }
