@@ -28,7 +28,7 @@ function currentLine(line) {
   } else {
     for(var i = 0; i < line.length; i++) {
       var newArray = [(i + line[i])];
-      
+
     }
     // Returns current line
     return 'The line is currently: ' + newArray;
