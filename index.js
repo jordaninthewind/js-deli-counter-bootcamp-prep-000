@@ -7,12 +7,15 @@ function takeANumber(currentList, newPerson) {
   // Ensure position is not index
 }
 
-function nowServing() {
+function nowServing(currentList) {
     // Returns first person in line
-
+    return currentList[0];
     // Removes same individual from line.
-
+    currentList.shift();
     // IF line is empty, returns 'There is nobody waiting to be served!'
+    if (currentList.length === 0) {
+      return 'There is nobody waiting to be served!';
+    }
 }
 
 function currentLine() {
