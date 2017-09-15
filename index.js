@@ -28,9 +28,10 @@ function currentLine(line) {
   } else {
     var i = 0;
     while(i < line.length) {
+      
       var position = i + 1;
       var newArray = [];
-      newArray[i] = position + line[i];
+      newArray.unshift() = position + line[i];
       i++;
     }
     // Returns current line
