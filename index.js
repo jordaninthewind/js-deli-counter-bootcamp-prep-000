@@ -9,7 +9,7 @@ function takeANumber(currentList, newPerson) {
 
 function nowServing(currentList) {
     // Returns first person in line
-    return currentList[0];
+    return `Currently serving ${currentList[0]}`;
     // Removes same individual from line.
     currentList.shift();
     // IF line is empty, returns 'There is nobody waiting to be served!'
