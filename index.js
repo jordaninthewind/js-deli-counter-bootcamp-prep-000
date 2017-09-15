@@ -29,9 +29,8 @@ function currentLine(line) {
     var i = 0;
     while(i < line.length) {
       var position = i + 1;
-      var name = line[i];
       var newArray = [];
-      newArray[i] = position + name;
+      newArray[i] = position + line[i];
       i++;
     }
     // Returns current line
