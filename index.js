@@ -10,9 +10,10 @@ function takeANumber(currentList, newPerson) {
 function nowServing(currentList) {
     // Returns first person in line
   if (currentList.length > 0) {
+    currentList.slice(1,0);
+    // currentList.shift();
     return `Currently serving ${currentList[0]}.`;
     // Removes same individual from line.
-    currentList.shift();
 
     // IF line is empty, returns 'There is nobody waiting to be served!'
   } else {
