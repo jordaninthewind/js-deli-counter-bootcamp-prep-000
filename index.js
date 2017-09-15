@@ -26,10 +26,12 @@ function currentLine(line) {
   if(line.length === 0) {
     return 'The line is currently empty.';
   } else {
-    for(var i = 0; i < line.length; i++) {
+    var i = 0;
+    while(i < line.length) {
       var position = i + 1;
       var name = line[i];
       var newArray = [position + name];
+      i++;
     }
     // Returns current line
     return 'The line is currently: ' + newArray;
