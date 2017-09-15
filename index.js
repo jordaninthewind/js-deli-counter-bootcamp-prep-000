@@ -13,7 +13,7 @@ function nowServing(currentList) {
     var firstPerson = currentList.slice(1,0);
     // currentList.shift();
     return `Currently serving ${firstPerson}.`;
-
+    currentList.shift();
     // Removes same individual from line.
 
     // IF line is empty, returns 'There is nobody waiting to be served!'
