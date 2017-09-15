@@ -1,7 +1,9 @@
   // Accept current line of people with name as parameter
-function takeANumber(list) {
+function takeANumber(currentList, newPerson) {
   // Function returns position in line
-
+  var position = currentList.length + 1;
+  currentList.push(newPerson);
+  return position;
   // Ensure position is not index
 }
 
