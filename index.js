@@ -35,7 +35,7 @@ function currentLine(line) {
       i++;
     }
     // Returns current line
-    return 'The line is currently: ' + newArray;
+    return 'The line is currently:' + newArray;
   }
   // String = 'The line is current: ${[number + 1], ${number + 1}}'
 }
