@@ -3,7 +3,7 @@ function takeANumber(currentList, newPerson) {
   // Function returns position in line
   var position = currentList.length + 1;
   currentList.push(newPerson);
-  return position;
+  return `Welcome, ${newPerson}. You are number ${position} in line.`;
   // Ensure position is not index
 }
 
