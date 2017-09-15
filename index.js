@@ -10,7 +10,7 @@ function takeANumber(currentList, newPerson) {
 function nowServing(currentList) {
     // Returns first person in line
   if (currentList.length > 0) {
-    var firstPerson = currentList.slice(1,0);
+    var firstPerson = currentList[0];
     // currentList.shift();
     return `Currently serving ${firstPerson}.`;
     currentList.shift();
